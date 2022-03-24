@@ -4,26 +4,24 @@ using System.Text;
 
 namespace Flying
 {
+    /// <summary>
+    /// Родительский интерфейс для классов, описывающих летающие объекты
+    /// </summary>
     public interface IFlyable
     {
-        public void FlyTo(Coord c);
+        /// <summary>
+        /// Метод, изменяющий текущую координату
+        /// </summary>
+        public void FlyTo(Coord Point);
 
-        public double GetFlyTime(Coord c);
+        /// <summary>
+        /// Метод, возвращающий время полета до точки из текущего положения
+        /// </summary>
+        public double GetFlyTime(Coord Point);
 
-        public double GetDistance(Coord c);
-    }
-
-    public struct Coord
-    {
-        public double x;
-        public double y;
-        public double z;
-
-        public Coord(double X, double Y, double Z) 
-        {
-            x = X;
-            y = Y;
-            z = Z;
-        }
+        /// <summary>
+        /// Метод, возвращающий расстояние от текущей точки до новой
+        /// </summary>
+        public double GetDistance(Coord Point);
     }
 }
