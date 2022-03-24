@@ -1,0 +1,14 @@
+E:\project\Visual\Flying\Flying\bin\Debug\netcoreapp3.1\Flying.exe
+E:\project\Visual\Flying\Flying\bin\Debug\netcoreapp3.1\Flying.deps.json
+E:\project\Visual\Flying\Flying\bin\Debug\netcoreapp3.1\Flying.runtimeconfig.json
+E:\project\Visual\Flying\Flying\bin\Debug\netcoreapp3.1\Flying.runtimeconfig.dev.json
+E:\project\Visual\Flying\Flying\bin\Debug\netcoreapp3.1\Flying.dll
+E:\project\Visual\Flying\Flying\bin\Debug\netcoreapp3.1\Flying.pdb
+E:\project\Visual\Flying\Flying\obj\Debug\netcoreapp3.1\Flying.csproj.AssemblyReference.cache
+E:\project\Visual\Flying\Flying\obj\Debug\netcoreapp3.1\Flying.GeneratedMSBuildEditorConfig.editorconfig
+E:\project\Visual\Flying\Flying\obj\Debug\netcoreapp3.1\Flying.AssemblyInfoInputs.cache
+E:\project\Visual\Flying\Flying\obj\Debug\netcoreapp3.1\Flying.AssemblyInfo.cs
+E:\project\Visual\Flying\Flying\obj\Debug\netcoreapp3.1\Flying.csproj.CoreCompileInputs.cache
+E:\project\Visual\Flying\Flying\obj\Debug\netcoreapp3.1\Flying.dll
+E:\project\Visual\Flying\Flying\obj\Debug\netcoreapp3.1\Flying.pdb
+E:\project\Visual\Flying\Flying\obj\Debug\netcoreapp3.1\Flying.genruntimeconfig.cache
