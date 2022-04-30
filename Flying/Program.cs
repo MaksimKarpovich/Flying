@@ -22,15 +22,41 @@ namespace Flying
     /// </summary>
     public struct Coord
     {
-        public double X;
-        public double Y;
-        public double Z;
+        public double x;
+        public double y;
+        public double z;
 
-        public Coord(double X, double Y, double Z)
+        public Coord(double x, double y, double z)
         {
-            this.X = X;
-            this.Y = Y;
-            this.Z = Z;
+            if(x >= 0) 
+            { 
+                this.x = x;
+            }
+            else 
+            { 
+                Console.WriteLine("Координата Х не может быть отрицательной");
+                this.x = 0; 
+            }
+
+            if (y >= 0)
+            {
+                this.y = y;
+            }
+            else
+            {
+                Console.WriteLine("Координата y не может быть отрицательной");
+                this.y = 0;
+            }
+
+            if (z >= 0)
+            {
+                this.z = z;
+            }
+            else
+            {
+                Console.WriteLine("Координата z не может быть отрицательной");
+                this.z = 0;
+            }
         }
     }
 }
